@@ -1,0 +1,5 @@
+.sidebar {
+  flex: 1;
+  min-width: 300px;
+  background-color: var(--primary-clr-500);
+}

@@ -1,0 +1,39 @@
+.message-input {
+  height: 50px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.message-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: var(--primary-clr-500);
+  font-size: 18px;
+}
+
+.message-input input::placeholder {
+  color: lightgray;
+}
+
+.message-input-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.message-input-actions img {
+  height: 24px;
+  cursor: pointer;
+}
+
+.message-input-actions button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: white;
+  background-color: var(--secondary-clr-500);
+}

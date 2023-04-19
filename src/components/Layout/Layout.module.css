@@ -1,0 +1,5 @@
+.layout {
+  background-color: var(--secondary-clr-300);
+  height: 100vh;
+  display: flex;
+}
